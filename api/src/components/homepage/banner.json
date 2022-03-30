@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_homepage_banners",
+  "info": {
+    "displayName": "banner",
+    "icon": "warehouse",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ]
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

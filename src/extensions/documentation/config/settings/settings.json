@@ -30,7 +30,7 @@
         "description": "Development server"
       },
       {
-        "url": "YOUR_STAGING_SERVER",
+        "url": "http://innovation.api.local",
         "description": "Staging server"
       },
       {

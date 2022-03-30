@@ -22,9 +22,6 @@
                               "title": {
                                 "type": "string"
                               },
-                              "description": {
-                                "type": "string"
-                              },
                               "sheets": {
                                 "type": "object",
                                 "properties": {
@@ -1157,9 +1154,6 @@
                                                         "title": {
                                                           "type": "string"
                                                         },
-                                                        "description": {
-                                                          "type": "string"
-                                                        },
                                                         "sheets": {
                                                           "type": "object",
                                                           "properties": {
@@ -1549,6 +1543,9 @@
                                                               }
                                                             }
                                                           }
+                                                        },
+                                                        "description": {
+                                                          "type": "string"
                                                         },
                                                         "createdAt": {
                                                           "type": "string",
@@ -2141,6 +2138,9 @@
                                   }
                                 }
                               },
+                              "description": {
+                                "type": "string"
+                              },
                               "createdAt": {
                                 "type": "string",
                                 "format": "date-time"
@@ -2472,9 +2472,6 @@
                             "title": {
                               "type": "string"
                             },
-                            "description": {
-                              "type": "string"
-                            },
                             "sheets": {
                               "type": "object",
                               "properties": {
@@ -3607,9 +3604,6 @@
                                                       "title": {
                                                         "type": "string"
                                                       },
-                                                      "description": {
-                                                        "type": "string"
-                                                      },
                                                       "sheets": {
                                                         "type": "object",
                                                         "properties": {
@@ -3999,6 +3993,9 @@
                                                             }
                                                           }
                                                         }
+                                                      },
+                                                      "description": {
+                                                        "type": "string"
                                                       },
                                                       "createdAt": {
                                                         "type": "string",
@@ -4590,6 +4587,9 @@
                                   }
                                 }
                               }
+                            },
+                            "description": {
+                              "type": "string"
                             },
                             "createdAt": {
                               "type": "string",
@@ -4811,9 +4811,6 @@
                       "title": {
                         "type": "string"
                       },
-                      "description": {
-                        "type": "string"
-                      },
                       "sheets": {
                         "type": "array",
                         "items": {
@@ -4838,6 +4835,9 @@
                           }
                         ],
                         "example": "string or id"
+                      },
+                      "description": {
+                        "type": "string"
                       },
                       "createdAt": {
                         "type": "string",
@@ -4900,9 +4900,6 @@
                           "type": "object",
                           "properties": {
                             "title": {
-                              "type": "string"
-                            },
-                            "description": {
                               "type": "string"
                             },
                             "sheets": {
@@ -6037,9 +6034,6 @@
                                                       "title": {
                                                         "type": "string"
                                                       },
-                                                      "description": {
-                                                        "type": "string"
-                                                      },
                                                       "sheets": {
                                                         "type": "object",
                                                         "properties": {
@@ -6429,6 +6423,9 @@
                                                             }
                                                           }
                                                         }
+                                                      },
+                                                      "description": {
+                                                        "type": "string"
                                                       },
                                                       "createdAt": {
                                                         "type": "string",
@@ -7020,6 +7017,9 @@
                                   }
                                 }
                               }
+                            },
+                            "description": {
+                              "type": "string"
                             },
                             "createdAt": {
                               "type": "string",
@@ -7261,9 +7261,6 @@
                             "title": {
                               "type": "string"
                             },
-                            "description": {
-                              "type": "string"
-                            },
                             "sheets": {
                               "type": "object",
                               "properties": {
@@ -8396,9 +8393,6 @@
                                                       "title": {
                                                         "type": "string"
                                                       },
-                                                      "description": {
-                                                        "type": "string"
-                                                      },
                                                       "sheets": {
                                                         "type": "object",
                                                         "properties": {
@@ -8788,6 +8782,9 @@
                                                             }
                                                           }
                                                         }
+                                                      },
+                                                      "description": {
+                                                        "type": "string"
                                                       },
                                                       "createdAt": {
                                                         "type": "string",
@@ -9380,6 +9377,9 @@
                                 }
                               }
                             },
+                            "description": {
+                              "type": "string"
+                            },
                             "createdAt": {
                               "type": "string",
                               "format": "date-time"
@@ -9611,9 +9611,6 @@
                       "title": {
                         "type": "string"
                       },
-                      "description": {
-                        "type": "string"
-                      },
                       "sheets": {
                         "type": "array",
                         "items": {
@@ -9638,6 +9635,9 @@
                           }
                         ],
                         "example": "string or id"
+                      },
+                      "description": {
+                        "type": "string"
                       },
                       "createdAt": {
                         "type": "string",

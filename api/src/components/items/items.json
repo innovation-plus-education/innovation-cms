@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_motto_items",
+  "info": {
+    "displayName": "motto",
+    "icon": "align-justify",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "icon": {
+      "type": "string"
+    }
+  }
+}

@@ -580,9 +580,6 @@
                                                                                                   "title": {
                                                                                                     "type": "string"
                                                                                                   },
-                                                                                                  "description": {
-                                                                                                    "type": "string"
-                                                                                                  },
                                                                                                   "sheets": {
                                                                                                     "type": "object",
                                                                                                     "properties": {
@@ -972,6 +969,9 @@
                                                                                                         }
                                                                                                       }
                                                                                                     }
+                                                                                                  },
+                                                                                                  "description": {
+                                                                                                    "type": "string"
                                                                                                   },
                                                                                                   "createdAt": {
                                                                                                     "type": "string",
@@ -2724,9 +2724,6 @@
                                                                                                 "title": {
                                                                                                   "type": "string"
                                                                                                 },
-                                                                                                "description": {
-                                                                                                  "type": "string"
-                                                                                                },
                                                                                                 "sheets": {
                                                                                                   "type": "object",
                                                                                                   "properties": {
@@ -3116,6 +3113,9 @@
                                                                                                       }
                                                                                                     }
                                                                                                   }
+                                                                                                },
+                                                                                                "description": {
+                                                                                                  "type": "string"
                                                                                                 },
                                                                                                 "createdAt": {
                                                                                                   "type": "string",
@@ -4883,9 +4883,6 @@
                                                                                                 "title": {
                                                                                                   "type": "string"
                                                                                                 },
-                                                                                                "description": {
-                                                                                                  "type": "string"
-                                                                                                },
                                                                                                 "sheets": {
                                                                                                   "type": "object",
                                                                                                   "properties": {
@@ -5275,6 +5272,9 @@
                                                                                                       }
                                                                                                     }
                                                                                                   }
+                                                                                                },
+                                                                                                "description": {
+                                                                                                  "type": "string"
                                                                                                 },
                                                                                                 "createdAt": {
                                                                                                   "type": "string",
@@ -6936,9 +6936,6 @@
                                                                                                 "title": {
                                                                                                   "type": "string"
                                                                                                 },
-                                                                                                "description": {
-                                                                                                  "type": "string"
-                                                                                                },
                                                                                                 "sheets": {
                                                                                                   "type": "object",
                                                                                                   "properties": {
@@ -7328,6 +7325,9 @@
                                                                                                       }
                                                                                                     }
                                                                                                   }
+                                                                                                },
+                                                                                                "description": {
+                                                                                                  "type": "string"
                                                                                                 },
                                                                                                 "createdAt": {
                                                                                                   "type": "string",
@@ -9281,9 +9281,6 @@
                                                                                                 "title": {
                                                                                                   "type": "string"
                                                                                                 },
-                                                                                                "description": {
-                                                                                                  "type": "string"
-                                                                                                },
                                                                                                 "sheets": {
                                                                                                   "type": "object",
                                                                                                   "properties": {
@@ -9673,6 +9670,9 @@
                                                                                                       }
                                                                                                     }
                                                                                                   }
+                                                                                                },
+                                                                                                "description": {
+                                                                                                  "type": "string"
                                                                                                 },
                                                                                                 "createdAt": {
                                                                                                   "type": "string",
