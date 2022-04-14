@@ -8,7 +8,7 @@
   "options": {},
   "attributes": {
     "description": {
-      "type": "string"
+      "type": "text"
     },
     "title": {
       "type": "string"
@@ -22,6 +22,9 @@
         "files",
         "videos"
       ]
+    },
+    "link": {
+      "type": "string"
     }
   }
 }

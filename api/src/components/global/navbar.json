@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_global_navbars",
+  "info": {
+    "displayName": "navbar",
+    "icon": "address-book",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "navigables": {
+      "type": "component",
+      "repeatable": true,
+      "component": "items.footer-columns"
+    },
+    "homepage": {
+      "displayName": "Homepage",
+      "type": "component",
+      "repeatable": false,
+      "component": "items.homepage"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_footer_columns",
+  "info": {
+    "displayName": "links",
+    "icon": "address-card",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "href": {
+      "type": "string"
+    }
+  }
+}

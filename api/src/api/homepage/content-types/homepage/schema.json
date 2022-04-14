@@ -45,6 +45,16 @@
         }
       },
       "component": "homepage.banner"
+    },
+    "info_bloc": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "homepage.info-bloc"
     }
   }
 }
