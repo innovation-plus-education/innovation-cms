@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "corrections",
+  "info": {
+    "singularName": "correction",
+    "pluralName": "corrections",
+    "displayName": "correction"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "correction_sheets": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "type": "media",
+      "multiple": true,
+      "required": true
+    }
+  }
+}
