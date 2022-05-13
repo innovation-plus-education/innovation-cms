@@ -1,20 +1,15 @@
-ARG BASE_VERSION
-FROM strapi/base:${BASE_VERSION}
-
-ARG STRAPI_VERSION
-RUN yarn global add @strapi/strapi@${STRAPI_VERSION}
-
-RUN mkdir /home/node/api && chown 1000:1000 -R /home/node/api
-
-WORKDIR /home/node/api
-
-VOLUME /home/node/api
-
-COPY wait-for-postgres.sh /usr/local/bin/
-
-COPY entrypoint.sh /usr/local/bin/
-
-# ENTRYPOINT ["wait-for-postgres.sh", "postgres", "entrypoint.sh"]
-ENTRYPOINT [ "entrypoint.sh" ]
-
-CMD ["strapi", "develop"]
+FROM node:16
+# Installing libvips-dev for sharp compatability
+RUN apt-get update && apt-get install -yq libvips-dev
+ARG NODE_ENV=development
+WORKDIR /node/api/
+COPY ./package.json ./
+COPY ./yarn.lock ./
+ENV PATH /node/api/node_modules/.bin:$PATH
+RUN yarn config set network-timeout 600000 -g
+RUN yarn install
+WORKDIR /node/api
+COPY ./ .
+RUN yarn build
+EXPOSE 1337
+CMD ["yarn", "develop"]
