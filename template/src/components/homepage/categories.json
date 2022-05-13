@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_homepage_cats",
+  "info": {
+    "displayName": "categories",
+    "icon": "adjust"
+  },
+  "options": {},
+  "attributes": {
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "items.categories"
+    }
+  }
+}

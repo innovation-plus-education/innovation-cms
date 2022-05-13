@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_global_footers",
+  "info": {
+    "displayName": "Footer",
+    "icon": "ad",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "columns": {
+      "displayName": "ColumnsFooter",
+      "type": "component",
+      "repeatable": true,
+      "component": "footer.columns-footer"
+    }
+  }
+}

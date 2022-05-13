@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_homepage_categories",
+  "info": {
+    "displayName": "category",
+    "icon": "align-left",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "description": {
+      "type": "text"
+    },
+    "title": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ]
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}
