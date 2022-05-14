@@ -54,7 +54,7 @@
       "type": "relation",
       "relation": "manyToMany",
       "target": "api::course.course",
-      "inversedBy": "exams"
+      "mappedBy": "exams"
     }
   }
 }

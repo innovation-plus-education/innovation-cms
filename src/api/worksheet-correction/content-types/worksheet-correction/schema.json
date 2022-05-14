@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "worksheet_corrections",
+  "info": {
+    "singularName": "worksheet-correction",
+    "pluralName": "worksheet-corrections",
+    "displayName": "worksheet_correction"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "sheet": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "worksheet": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::worksheet.worksheet"
+    }
+  }
+}
