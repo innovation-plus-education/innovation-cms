@@ -65,30 +65,21 @@
       },
       "type": "string"
     },
-    "resume": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "richtext",
-      "minLength": 300,
-      "maxLength": 600
-    },
     "topics": {
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::topic.topic"
     },
     "brand": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
       ],
-      "type": "media",
-      "multiple": false,
       "pluginOptions": {
         "i18n": {
           "localized": true

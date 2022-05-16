@@ -7,6 +7,12 @@
 const { createCoreService } = require('@strapi/strapi').factories;
 
 module.exports = createCoreService('api::exam.exam', ({strapi}) => ({
+    async findExamsWithImage() {
+        return strapi.db.query('api::exam.exam').findMany({
+            populate: { brand: true}
+        })
+    },
+
     async findExamCourses(examId) {
         return strapi.db.query('api::exam.exam').findOne({
             where: {id: examId},
