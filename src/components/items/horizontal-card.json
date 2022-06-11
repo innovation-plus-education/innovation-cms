@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_items_horizontal_cards",
+  "info": {
+    "displayName": "horizontal-card",
+    "icon": "arrow-circle-right"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "resume": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

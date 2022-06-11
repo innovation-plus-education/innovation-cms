@@ -15,6 +15,9 @@
       "type": "component",
       "repeatable": true,
       "component": "items.items"
+    },
+    "description": {
+      "type": "text"
     }
   }
 }

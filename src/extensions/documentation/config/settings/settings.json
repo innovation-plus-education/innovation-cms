@@ -1,7 +1,7 @@
 {
     "openapi": "3.0.0",
     "info": {
-      "version": "1.0.1",
+      "version": "2.0.0",
       "title": "DOCUMENTATION",
       "description": "",
       "termsOfService": "YOUR_TERMS_OF_SERVICE_URL",
@@ -20,8 +20,7 @@
       "showGeneratedFiles": true,
       "pluginsForWhichToGenerateDoc": [
         "email",
-        "upload",
-        "users-permissions"
+        "upload"
       ]
     },
     "servers": [
@@ -34,7 +33,7 @@
         "description": "Staging server"
       },
       {
-        "url": "YOUR_PRODUCTION_SERVER",
+        "url": "http://innovation.api.local",
         "description": "Production server"
       }
     ],

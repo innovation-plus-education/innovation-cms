@@ -1,0 +1,51 @@
+{
+  "kind": "collectionType",
+  "collectionName": "exam_criteria",
+  "info": {
+    "singularName": "exam-criterion",
+    "pluralName": "exam-criteria",
+    "displayName": "exam-criterion"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "name": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
+    },
+    "age_limit": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "integer"
+    },
+    "level": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "enumeration",
+      "enum": [
+        "Advanced level",
+        "HND",
+        "Bachelor",
+        "Master"
+      ],
+      "default": "Advanced level",
+      "private": true
+    }
+  }
+}

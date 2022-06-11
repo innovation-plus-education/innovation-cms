@@ -4,7 +4,8 @@
   "info": {
     "singularName": "activity",
     "pluralName": "activities",
-    "displayName": "activity"
+    "displayName": "activity",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -64,6 +65,14 @@
       "relation": "oneToMany",
       "target": "api::worksheet.worksheet",
       "mappedBy": "activity"
+    },
+    "location": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
     }
   }
 }

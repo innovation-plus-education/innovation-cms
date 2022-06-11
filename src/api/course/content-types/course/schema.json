@@ -4,7 +4,8 @@
   "info": {
     "singularName": "course",
     "pluralName": "courses",
-    "displayName": "course"
+    "displayName": "course",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -42,6 +43,27 @@
       "relation": "oneToMany",
       "target": "api::activity.activity",
       "mappedBy": "course"
+    },
+    "topic": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::topic.topic",
+      "inversedBy": "courses"
+    },
+    "sheet": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     }
   }
 }
