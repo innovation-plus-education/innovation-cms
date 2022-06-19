@@ -41,8 +41,7 @@
     "activities": {
       "type": "relation",
       "relation": "oneToMany",
-      "target": "api::activity.activity",
-      "mappedBy": "course"
+      "target": "api::activity.activity"
     },
     "topic": {
       "type": "relation",
@@ -51,14 +50,15 @@
       "inversedBy": "courses"
     },
     "sheet": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
       ],
-      "type": "media",
-      "multiple": false,
       "pluginOptions": {
         "i18n": {
           "localized": true

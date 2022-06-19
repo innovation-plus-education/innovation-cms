@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_items_image_blocs",
+  "info": {
+    "displayName": "imageBloc",
+    "icon": "play",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "description": {
+      "type": "text",
+      "maxLength": 256
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

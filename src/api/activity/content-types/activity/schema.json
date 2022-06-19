@@ -48,12 +48,6 @@
       },
       "type": "datetime"
     },
-    "course": {
-      "type": "relation",
-      "relation": "manyToOne",
-      "target": "api::course.course",
-      "inversedBy": "activities"
-    },
     "activity_sheets": {
       "type": "relation",
       "relation": "oneToMany",
