@@ -10,7 +10,7 @@
     "item": {
       "type": "component",
       "repeatable": false,
-      "component": "items.categories"
+      "component": "items.horizontal-card"
     }
   }
 }
